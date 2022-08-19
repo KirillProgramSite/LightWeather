@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import 'clear';
+
+body{
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #06283D 0%, #1363DF 172.55%);
+    background-repeat: no-repeat;
+    min-width: 1040px;
+}
+
+
+.container{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+@media(max-width: 428px){
+    body{
+        overflow-y: hidden;
+        background-repeat: repeat-x;
+        height: 255vh;
+    }
+
+    .container{
+      padding: 0px 5px;
+    }
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    padding-top: 100px;
+}
+
+
+@import 'header';
+@import 'search-weather';
+@import 'weather-item';
+@import 'city-weather';
+@import 'weather-panel';

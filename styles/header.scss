@@ -1,0 +1,73 @@
+header.header {
+    padding-top: 38px;
+}
+
+
+.header__wrapper {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.header__logo {
+
+    display: flex;
+    align-items: center;
+
+    p{
+        padding-left: 10px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        /* identical to box height */
+    
+    
+        /* Синий 4 */
+    
+        color: #DFF6FF;
+    }
+}
+
+.header__widget-title {
+    padding-bottom: 10px;
+
+    h1 {
+        font-family: Rubik;
+        font-weight: bold;
+        font-size: 32px;
+        color: #DFF6FF;
+    }
+
+    img {
+        padding-right: 21px;
+    }
+}
+
+
+
+.header__widget-content-weather {
+    padding-right: 19px;
+
+    p {
+        font-family: Mulish;
+        color: #DFF6FF;
+        font-size: 24px;
+        padding-left: 5px;
+        font-weight: 600;
+    }
+}
+
+.header__widget-content-city p {
+    color: #DFF6FF;
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-none-weather p {
+    font-family: Mulish;
+    color: #DFF6FF;
+    font-size: 24px;
+    padding-left: 5px;
+    font-weight: 600;
+}

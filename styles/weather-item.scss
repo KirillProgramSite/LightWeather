@@ -1,0 +1,74 @@
+.city-weather__item {
+    border-radius: 30px;
+    padding: 10px;
+    width: 954px;
+    
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+    &:hover{
+        background-color: #1363DF;
+    }
+}
+
+.city-weather__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.city-weather__item-text {
+    display: flex;
+    padding-left: 40px;
+
+    p {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+
+        margin-top: -10px;
+    }
+
+    h3 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        /* identical to box height */
+
+
+        /* Синий 4 */
+
+        color: #DFF6FF;
+    }
+}
+
+@media (max-width: 428px) {
+    .city-weather__item-text h3{
+        font-size: 40px;
+    }
+
+    .city-weather__item-text p{
+        font-size: 30px;
+    }
+
+    .city-weather__item{
+        width: 100%;
+    }
+
+    .city-weather__item-img img{
+        width: 100px;
+    }
+}
