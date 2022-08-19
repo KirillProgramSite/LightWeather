@@ -85,61 +85,61 @@ async function bgWeather(content) {
   for(key in content){
     switch (content.weather[0]['icon']) {
       case "01d":
-        weatherPanelWrapper.style.background = `url("/img/sun.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/sun.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "01n":
-        weatherPanelWrapper.style.background = `url("/img/moon.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/moon.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
       case "02d":
-        weatherPanelWrapper.style.background = `url("/img/cloudy and sun.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/cloudy and sun.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "02n":
-        weatherPanelWrapper.style.background = `url("/img/moon and cloud.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/moon and cloud.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "03d":
       case "03n":
-        weatherPanelWrapper.style.background = `url("/img/cloudy.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/cloudy.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "04d":
       case "04n":
-        weatherPanelWrapper.style.background = `url("/img/cloudy.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/cloudy.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "09d":
-        weatherPanelWrapper.style.background = `url("/img/rain.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/rain.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "09n":
-        weatherPanelWrapper.style.background = `url("/img/rain and moon.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/rain and moon.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "10d":
-        weatherPanelWrapper.style.background = `url("/img/rain.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/rain.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "10n":
-        weatherPanelWrapper.style.background = `url("/img/rain and moon.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/rain and moon.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
       case "11d":
-        weatherPanelWrapper.style.background = `url("/img/thunderstorm sun.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/thunderstorm sun.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "11n":
-        weatherPanelWrapper.style.background = `url("/img/thunderstorm.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/thunderstorm.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "13d":
       case "13n":
-        weatherPanelWrapper.style.background = `url("/img/snow.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/snow.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       case "50d":
       case "50n":
-        weatherPanelWrapper.style.background = `url("/img/fog.jpg")`;
+        weatherPanelWrapper.style.background = `url("https://kirillprogramsite.github.io/LightWeather/img/fog.jpg")`;
         weatherPanelWrapper.style.backgroundRepeat = 'no-repeat';
         break;
       default:
